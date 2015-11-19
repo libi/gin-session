@@ -59,7 +59,7 @@ type session struct {
 }
 
 
-func (s *session)GET(k string) interface{}{
+func (s *session)Get(k string) interface{}{
 	return s.store.Get(k,s.Session_id)
 }
 func (s *session)Set(k string,v interface{}){
