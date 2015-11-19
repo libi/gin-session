@@ -2,6 +2,7 @@
 go gin框架的session中间件， 目前只实现了redis驱动
 
 使用方法
+
 func main(){
 	g := gin.New()
 
